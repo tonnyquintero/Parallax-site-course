@@ -54,3 +54,46 @@ header {
     color:  #fff;
 }
 
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.parallax img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    font-size: 4em;
+    color: #112434;
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #112434;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
